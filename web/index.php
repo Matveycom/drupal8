@@ -20,5 +20,4 @@ $response = $kernel->handle($request);
 $response->send();
 
 $kernel->terminate($request, $response);
-
-echo 1;
+echo 2;
