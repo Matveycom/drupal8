@@ -11,9 +11,7 @@
 use Drupal\Core\DrupalKernel;
 use Symfony\Component\HttpFoundation\Request;
 echo 'by';
-echo 'hi';
 
-echo 'fhjhjg';
 $autoloader = require_once 'autoload.php';
 
 $kernel = new DrupalKernel('prod', $autoloader);
