@@ -10,7 +10,6 @@
 
 use Drupal\Core\DrupalKernel;
 use Symfony\Component\HttpFoundation\Request;
-echo 'by';
 
 $autoloader = require_once 'autoload.php';
 
